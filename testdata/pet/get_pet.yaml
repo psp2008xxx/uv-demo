@@ -1,0 +1,10 @@
+cases:
+  - name: valid_pet
+    pet_id: 775
+    expected_status: 200
+
+  - name: invalid_pet
+    pet_id: 252
+    expected_code: 1
+    expected_type: error
+    expected_status: 404
